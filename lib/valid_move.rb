@@ -1,6 +1,6 @@
 # code your #valid_move? method here
 def valid_move(index)
-  if index>0 && index<9
+  if index<8 && index>=0
     true
   else
     false
